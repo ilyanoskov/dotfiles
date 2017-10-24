@@ -1,0 +1,39 @@
+"*":
+  core:
+    disabledPackages: [
+      "react"
+      "linter"
+      "linter-eslint"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    atomicSoftTabs: false
+    autoIndentOnPaste: false
+    fontFamily: "Input Mono "
+    fontSize: 12
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "745ec73e-835d-4f63-81d3-32bc0e41872c"
+  "language-babel":
+    autoIndentJSX: true
+  "linter-eslint": {}
+  "linter-ui-default":
+    panelHeight: 69
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        black: "#2a2a2a"
+    style:
+      theme: "inverse"
+    toggles:
+      autoClose: true
+  "prettier-atom":
+    formatOnSaveOptions: {}
+    prettierOptions:
+      singleQuote: true
+    useEslint: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
